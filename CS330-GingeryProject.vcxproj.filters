@@ -1,0 +1,310 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\src">
+      <UniqueIdentifier>{802045b3-3721-4c61-b699-74a62817802e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\external">
+      <UniqueIdentifier>{e85f7de5-c4ad-4962-8ee5-6736030169a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\include">
+      <UniqueIdentifier>{ad345ce3-6fb6-42fd-8173-ba6a010f3ea8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\external\glad">
+      <UniqueIdentifier>{87488a30-f7ed-4c95-ab88-b0d2966017ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\external\glm">
+      <UniqueIdentifier>{5f2dfe19-d86f-4e3c-a7e1-c82d1463e3ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\external\stb">
+      <UniqueIdentifier>{2a30cdfb-bc01-4400-b6d6-a84738b2de36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\assets">
+      <UniqueIdentifier>{e5b46b82-15ad-428c-befd-f66b70b8a02d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\assets\shaders">
+      <UniqueIdentifier>{52b83bfb-677b-4e76-9124-4fc01de2b4f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\assets\textures">
+      <UniqueIdentifier>{96b39d32-34c2-43a2-9972-053ed5644749}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\core">
+      <UniqueIdentifier>{51f1ba87-5523-4194-9b61-b2aa8ae953f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\rendering">
+      <UniqueIdentifier>{fd7beb57-385d-47b0-b812-1b17c2115206}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\world_objects">
+      <UniqueIdentifier>{50558c15-2ffd-4eda-afae-2292818821c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\include\core">
+      <UniqueIdentifier>{69b96220-25c6-498f-ace7-8eae798470f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\include\rendering">
+      <UniqueIdentifier>{91ba4afd-c594-42c8-9a7c-358472ba10b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\include\world_objects">
+      <UniqueIdentifier>{dec91066-d65e-474a-a756-acc667041179}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\assets\textures\DMG">
+      <UniqueIdentifier>{9a603470-e379-4f52-a52d-9a76f4f9eba4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\assets\textures\dmscreen">
+      <UniqueIdentifier>{725d9e94-dab8-4b0e-88cf-74311790d552}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\assets\textures\table">
+      <UniqueIdentifier>{9fd6ee3b-68bc-4e7d-88df-d5a95aff8591}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\assets\textures\extras">
+      <UniqueIdentifier>{664314d1-7fbb-413a-a28d-69b1d82d8fc9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="external\vslibs\glm\glm\common.hpp">
+      <Filter>Source Files\external\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="external\vslibs\glm\glm\exponential.hpp">
+      <Filter>Source Files\external\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="external\vslibs\glm\glm\ext.hpp">
+      <Filter>Source Files\external\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="external\vslibs\glm\glm\fwd.hpp">
+      <Filter>Source Files\external\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="external\vslibs\glm\glm\geometric.hpp">
+      <Filter>Source Files\external\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="external\vslibs\glm\glm\glm.hpp">
+      <Filter>Source Files\external\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="external\vslibs\glm\glm\integer.hpp">
+      <Filter>Source Files\external\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="external\vslibs\glm\glm\mat2x2.hpp">
+      <Filter>Source Files\external\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="external\vslibs\glm\glm\mat2x3.hpp">
+      <Filter>Source Files\external\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="external\vslibs\glm\glm\mat2x4.hpp">
+      <Filter>Source Files\external\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="external\vslibs\glm\glm\mat3x2.hpp">
+      <Filter>Source Files\external\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="external\vslibs\glm\glm\mat3x3.hpp">
+      <Filter>Source Files\external\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="external\vslibs\glm\glm\mat3x4.hpp">
+      <Filter>Source Files\external\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="external\vslibs\glm\glm\mat4x2.hpp">
+      <Filter>Source Files\external\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="external\vslibs\glm\glm\mat4x3.hpp">
+      <Filter>Source Files\external\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="external\vslibs\glm\glm\mat4x4.hpp">
+      <Filter>Source Files\external\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="external\vslibs\glm\glm\matrix.hpp">
+      <Filter>Source Files\external\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="external\vslibs\glm\glm\packing.hpp">
+      <Filter>Source Files\external\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="external\vslibs\glm\glm\trigonometric.hpp">
+      <Filter>Source Files\external\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="external\vslibs\glm\glm\vec2.hpp">
+      <Filter>Source Files\external\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="external\vslibs\glm\glm\vec3.hpp">
+      <Filter>Source Files\external\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="external\vslibs\glm\glm\vec4.hpp">
+      <Filter>Source Files\external\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="external\vslibs\glm\glm\vector_relational.hpp">
+      <Filter>Source Files\external\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="include\core\application.h">
+      <Filter>Source Files\include\core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\core\camera.h">
+      <Filter>Source Files\include\core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\core\material.h">
+      <Filter>Source Files\include\core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\core\model.h">
+      <Filter>Source Files\include\core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\rendering\Mesh.h">
+      <Filter>Source Files\include\rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="include\rendering\shader.h">
+      <Filter>Source Files\include\rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="include\rendering\textures.h">
+      <Filter>Source Files\include\rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="include\rendering\types.h">
+      <Filter>Source Files\include\rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="include\core\shapes.h">
+      <Filter>Source Files\include\core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\world_objects\world_object.h">
+      <Filter>Source Files\include\world_objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\world_objects\book.h">
+      <Filter>Source Files\include\world_objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\world_objects\dice.h">
+      <Filter>Source Files\include\world_objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\world_objects\dm_screen.h">
+      <Filter>Source Files\include\world_objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\world_objects\table.h">
+      <Filter>Source Files\include\world_objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\world_objects\point_light.h">
+      <Filter>Source Files\include\world_objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\world_objects\dir_light.h">
+      <Filter>Source Files\include\world_objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\world_objects\pyramid.h">
+      <Filter>Source Files\include\world_objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\world_objects\point_light_two.h">
+      <Filter>Source Files\include\world_objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\world_objects\coffee_cup.h">
+      <Filter>Source Files\include\world_objects</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="external\vslibs\glad\src\glad.c">
+      <Filter>Source Files\external\glad</Filter>
+    </ClCompile>
+    <ClCompile Include="external\vslibs\stb\stb.cpp">
+      <Filter>Source Files\external\stb</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\application.cpp">
+      <Filter>Source Files\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\camera.cpp">
+      <Filter>Source Files\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\material.cpp">
+      <Filter>Source Files\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\model.cpp">
+      <Filter>Source Files\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\rendering\Mesh.cpp">
+      <Filter>Source Files\src\rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="src\rendering\shader.cpp">
+      <Filter>Source Files\src\rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="src\rendering\textures.cpp">
+      <Filter>Source Files\src\rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="src\world_objects\book.cpp">
+      <Filter>Source Files\src\world_objects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\world_objects\dice.cpp">
+      <Filter>Source Files\src\world_objects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\world_objects\dm_screen.cpp">
+      <Filter>Source Files\src\world_objects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\world_objects\table.cpp">
+      <Filter>Source Files\src\world_objects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\world_objects\dir_light.cpp">
+      <Filter>Source Files\src\world_objects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\world_objects\point_light.cpp">
+      <Filter>Source Files\src\world_objects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\world_objects\pyramid.cpp">
+      <Filter>Source Files\src\world_objects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\world_objects\point_light_two.cpp">
+      <Filter>Source Files\src\world_objects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\world_objects\coffee_cup.cpp">
+      <Filter>Source Files\src\world_objects</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\shaders\basic_lit.frag">
+      <Filter>Source Files\assets\shaders</Filter>
+    </None>
+    <None Include="assets\shaders\basic_lit.vert">
+      <Filter>Source Files\assets\shaders</Filter>
+    </None>
+    <None Include="assets\shaders\basic_unlit_color.frag">
+      <Filter>Source Files\assets\shaders</Filter>
+    </None>
+    <None Include="assets\shaders\basic_unlit_color.vert">
+      <Filter>Source Files\assets\shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="assets\textures\dmscreen\leather.jpg">
+      <Filter>Source Files\assets\textures\dmscreen</Filter>
+    </Image>
+    <Image Include="assets\textures\dmscreen\stud.jpg">
+      <Filter>Source Files\assets\textures\dmscreen</Filter>
+    </Image>
+    <Image Include="assets\textures\dmscreen\wood.jpg">
+      <Filter>Source Files\assets\textures\dmscreen</Filter>
+    </Image>
+    <Image Include="assets\textures\DMG\bookpages.jpg">
+      <Filter>Source Files\assets\textures\DMG</Filter>
+    </Image>
+    <Image Include="assets\textures\DMG\DMGBook.jpg">
+      <Filter>Source Files\assets\textures\DMG</Filter>
+    </Image>
+    <Image Include="assets\textures\DMG\DMGBookBack.jpg">
+      <Filter>Source Files\assets\textures\DMG</Filter>
+    </Image>
+    <Image Include="assets\textures\DMG\DMGBookSpine.jpg">
+      <Filter>Source Files\assets\textures\DMG</Filter>
+    </Image>
+    <Image Include="assets\textures\dmscreen\beholder_page.jpg">
+      <Filter>Source Files\assets\textures\dmscreen</Filter>
+    </Image>
+    <Image Include="assets\textures\extras\brick.jpg">
+      <Filter>Source Files\assets\textures\extras</Filter>
+    </Image>
+    <Image Include="assets\textures\extras\coffee_cup.jpg">
+      <Filter>Source Files\assets\textures\extras</Filter>
+    </Image>
+    <Image Include="assets\textures\extras\pencil.jpg">
+      <Filter>Source Files\assets\textures\extras</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
