@@ -11,7 +11,9 @@
     Tactics used in this project could apply to all of my future coursework primarily in the organizational skills developed throughout this course. 
 
 # How do I approach developing programs?
+  My approach to developing programs is much like that of the designing process. I try to break down the project and gain an understanding of what I need to accomplish. Once I have that, I can begin to figure out the structure, how I will develop the program, and how it will be organized. I try to constantly test the program and ensure that the new additions made will function properly as I go. 
 #  What new development strategies did you use while working on your 3D scene?
+      
 #  How did iteration factor into your development?
 #  How has your approach to developing code evolved throughout the milestones, which led you to the project’s completion?
 
